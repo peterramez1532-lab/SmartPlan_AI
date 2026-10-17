@@ -1,0 +1,16 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+sqlalchemy>=2.0,<3
+pydantic>=2.7,<3
+pandas>=2.2,<4
+openpyxl>=3.1,<4
+python-multipart>=0.0.9
+psycopg[binary]>=3.2,<4
+pytest>=8,<9
+httpx>=0.27
+python-dotenv>=1,<2
+
+xlrd>=2.0.1,<3
+
+# Optional constraint optimizer; service falls back to a deterministic heuristic if unavailable
+ortools>=9.10,<10
